@@ -2,7 +2,8 @@ from maix import image, camera, display
 import serial
 
 # 通过导入新的功能文件，将功能模块化
-from detect_circles_colors import detect_circles_and_colors, send_data_packet
+from detect_circles_colors import detect_circles_and_colors
+from send_data_packet import send_data_packet
 from detect_color_area import color_area
 
 # 初始化串口
